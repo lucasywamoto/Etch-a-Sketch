@@ -13,7 +13,7 @@ function createGrid(gridSize) {
         container.style.gridTemplateColumns = `repeat(${gridSize}, 1fr)`;
         container.style.gridTemplateRows = `repeat(${gridSize}, 1fr)`;
 
-        let shade = 0.1;
+        let shade = 0;
     
         div.addEventListener('mouseover', () => {
             if(color === 'default')
